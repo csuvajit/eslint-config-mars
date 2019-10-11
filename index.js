@@ -13,7 +13,7 @@ const rules = {
 			'arraysInArrays': false
 		}
 	],
-	'array-callback-return': 0,
+	'array-callback-return': 'error',
 	'array-element-newline': 0,
 	'arrow-body-style': [
 		'error',
@@ -152,8 +152,23 @@ const rules = {
 	'keyword-spacing': [
 		'error',
 		{
-			'before': true,
-			'after': true
+			'overrides': {
+				'if': {
+					'after': true
+				},
+				'for': {
+					'after': true
+				},
+				'while': {
+					'after': true
+				},
+				'catch': {
+					'after': true
+				},
+				'switch': {
+					'after': true
+				}
+			}
 		}
 	],
 	'line-comment-position': 0,
@@ -235,7 +250,13 @@ const rules = {
 	'no-extra-bind': 0,
 	'no-extra-boolean-cast': 0,
 	'no-extra-label': 'warn',
-	'no-extra-parens': 0,
+	'no-extra-parens': [
+		'warn',
+		'all',
+		{
+			'nestedBinaryExpressions': false
+		}
+	],
 	'no-extra-semi': 'error',
 	'no-fallthrough': 0,
 	'no-floating-decimal': 'error',
@@ -315,7 +336,7 @@ const rules = {
 	'no-sparse-arrays': 'warn',
 	'no-sync': 0,
 	'no-tabs': 0,
-	'no-template-curly-in-string': 0,
+	'no-template-curly-in-string': 'error',
 	'no-ternary': 0,
 	'no-this-before-super': 'error',
 	'no-throw-literal': 'error',
@@ -359,7 +380,10 @@ const rules = {
 		'always'
 	],
 	'object-property-newline': 0,
-	'object-shorthand': 0,
+	'object-shorthand': [
+		'error',
+		'always'
+	],
 	'one-var': [
 		'error',
 		'never'
@@ -391,9 +415,21 @@ const rules = {
 			'destructuring': 'all'
 		}
 	],
-	'prefer-destructuring': 0,
+	'prefer-destructuring': [
+		'error',
+		{
+			'VariableDeclarator': {
+				'array': false,
+				'object': true
+			},
+			'AssignmentExpression': {
+				'array': true,
+				'object': false
+			}
+		}
+	],
 	'prefer-numeric-literals': 0,
-	'prefer-promise-reject-errors': 0,
+	'prefer-promise-reject-errors': 'error',
 	'prefer-rest-params': 'warn',
 	'prefer-spread': 'error',
 	'prefer-template': 'warn',
@@ -501,7 +537,23 @@ const rules = {
 		'never'
 	],
 	'use-isnan': 'error',
-	'valid-jsdoc': 0,
+	'valid-jsdoc': [
+		'warn',
+		{
+			'requireReturn': false,
+			'requireReturnDescription': false,
+			'preferType': {
+				'String': 'string',
+				'Number': 'number',
+				'Boolean': 'boolean',
+				'Symbol': 'symbol',
+				'function': 'Function',
+				'object': 'Object',
+				'date': 'Date',
+				'error': 'Error'
+			}
+		}
+	],
 	'valid-typeof': 'error',
 	'vars-on-top': 0,
 	'wrap-iife': [
