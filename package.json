@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-super",
+  "version": "1.0.0",
+  "description": "ESLint shareable config to make code consistent and more beautiful!",
+  "main": "index.js",
+  "author": "SUVAJIT (suvajit.me@gmail.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint --ext .js --ignore-path .gitignore .",
+    "build": "eslint --fix --ext .js --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "keywords": [],
+  "eslintConfig": {
+    "extends": "./node",
+    "rules": {
+      "quote-props": "off"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csuvajit/eslint-config-super.git"
+  },
+  "bugs": {
+    "url": "https://github.com/csuvajit/eslint-config-super/issues"
+  },
+  "homepage": "https://github.com/csuvajit/eslint-config-super#readme"
+}
