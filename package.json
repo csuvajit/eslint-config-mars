@@ -15,7 +15,13 @@
   "peerDependencies": {
     "eslint": "^6.4.0"
   },
-  "keywords": [],
+  "keywords": [
+    "eslintconfig",
+		"lint",
+		"linter",
+		"jslint",
+		"eslint"
+  ],
   "eslintConfig": {
     "extends": "./src/node",
     "rules": {
