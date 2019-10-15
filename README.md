@@ -1,6 +1,6 @@
-# eslint-config-mars
-
 <div align="center">
+	<h1>eslint-config-mars</h1>
+	<p>ESLint shareable config to make code consistent and more beautiful!</p>
 	<p>
 		<a href="https://www.npmjs.com/package/eslint-config-mars/">
 			<img src="https://nodei.co/npm/eslint-config-mars.png" alt="NPM Info" />
@@ -8,9 +8,9 @@
 	</p>
 </div>
 
-#### ESLint shareable config to make code consistent and more beautiful!
-
 ### Node.js
+
+`npm i eslint`
 ```json
 {
 	"extends": "mars/node",
@@ -20,6 +20,7 @@
 }
 ```
 ### Vue.js
+
 `npm i eslint-plugin-vue babel-eslint`
 ```json
 {
