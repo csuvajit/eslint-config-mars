@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-mars",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint shareable config to make code consistent and more beautiful!",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "SUVAJIT (suvajit.me@gmail.com)",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "eslintConfig": {
-    "extends": "./node",
+    "extends": "./src/node",
     "rules": {
       "quote-props": "off"
     }
