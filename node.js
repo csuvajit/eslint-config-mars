@@ -6,8 +6,5 @@ module.exports = {
 		es6: true,
 		node: true
 	},
-	rules: {
-		'array-callback-return': 'error',
-		'no-template-curly-in-string': 'error'
-	}
+	rules: {}
 };

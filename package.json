@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-super",
-  "version": "1.0.0",
+  "name": "eslint-config-mars",
+  "version": "1.0.1",
   "description": "ESLint shareable config to make code consistent and more beautiful!",
   "main": "index.js",
   "author": "SUVAJIT (suvajit.me@gmail.com)",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csuvajit/eslint-config-super.git"
+    "url": "git+https://github.com/csuvajit/eslint-config-mars.git"
   },
   "bugs": {
-    "url": "https://github.com/csuvajit/eslint-config-super/issues"
+    "url": "https://github.com/csuvajit/eslint-config-mars/issues"
   },
-  "homepage": "https://github.com/csuvajit/eslint-config-super#readme"
+  "homepage": "https://github.com/csuvajit/eslint-config-mars#readme"
 }
