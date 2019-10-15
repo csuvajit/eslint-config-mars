@@ -2,18 +2,17 @@
   "name": "eslint-config-mars",
   "version": "1.0.3",
   "description": "ESLint shareable config to make code consistent and more beautiful!",
-  "main": "src/index.js",
+  "main": "index.js",
   "author": "SUVAJIT (suvajit.me@gmail.com)",
   "license": "MIT",
   "scripts": {
     "test": "eslint --ext .js --ignore-path .gitignore .",
-    "build": "eslint --fix --ext .js --ignore-path .gitignore ."
+    "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
-  },
-  "peerDependencies": {
-    "eslint": "^6.4.0"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-plugin-vue": "^5.2.3"
   },
   "keywords": [
     "eslintconfig",

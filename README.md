@@ -10,9 +10,20 @@
 
 #### ESLint shareable config to make code consistent and more beautiful!
 
+### Node.js
 ```json
 {
 	"extends": "mars/node",
+	"rules": {
+		
+	}
+}
+```
+### Vue.js
+`npm i eslint-plugin-vue babel-eslint`
+```json
+{
+	"extends": "mars/vue",
 	"rules": {
 		
 	}
