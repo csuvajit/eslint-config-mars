@@ -17,13 +17,13 @@
   },
   "keywords": [
     "eslintconfig",
-		"lint",
-		"linter",
-		"jslint",
-		"eslint"
+    "lint",
+    "linter",
+    "jslint",
+    "eslint"
   ],
   "eslintConfig": {
-    "extends": "./src/node",
+    "extends": "./node",
     "rules": {
       "quote-props": "off"
     }
