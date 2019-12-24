@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csuvajit/eslint-config-mars.git"
+    "url": "git+https://github.com/ndency/eslint-config-mars.git"
   },
   "bugs": {
-    "url": "https://github.com/csuvajit/eslint-config-mars/issues"
+    "url": "https://github.com/ndency/eslint-config-mars/issues"
   },
-  "homepage": "https://github.com/csuvajit/eslint-config-mars#readme"
+  "homepage": "https://github.com/ndency/eslint-config-mars#readme"
 }
