@@ -14,19 +14,6 @@
 ```json
 {
 	"extends": "mars/node",
-	"rules": {
-		
-	}
-}
-```
-### Vue.js
-
-`npm i eslint-plugin-vue babel-eslint`
-```json
-{
-	"extends": "mars/vue",
-	"rules": {
-		
-	}
+	"rules": {}
 }
 ```

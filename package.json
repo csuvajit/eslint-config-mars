@@ -3,24 +3,21 @@
   "version": "1.0.5",
   "description": "ESLint shareable config to make code consistent and more beautiful!",
   "main": "index.js",
-  "author": "SUVAJIT (suvajit.me@gmail.com)",
+  "author": "SUVAJIT <suvajit.me@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "eslint --ext .js --ignore-path .gitignore .",
     "lint": "eslint --fix --ext .js --ignore-path .gitignore ."
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^6.4.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint": "^7.7.0"
   },
   "keywords": [
     "eslintconfig",
     "lint",
     "linter",
     "jslint",
-    "eslint",
-    "eslint-vue"
+    "eslint"
   ],
   "eslintConfig": {
     "extends": "./node",

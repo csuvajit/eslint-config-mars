@@ -2,8 +2,10 @@ const path = require('path');
 
 module.exports = {
 	extends: path.join(__dirname, 'index.js'),
+	parserOptions: {
+		ecmaVersion: 2020
+	},
 	env: {
-		es6: true,
 		node: true
 	},
 	rules: {}
