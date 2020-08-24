@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mars",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint shareable config to make code consistent and more beautiful!",
   "main": "index.js",
   "author": "SUVAJIT <suvajit.me@gmail.com>",
